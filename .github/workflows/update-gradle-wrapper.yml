@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Update Gradle Wrapper
         uses: gradle-update/update-gradle-wrapper-action@74a035ce333f39c84811ce1167669bfa6c65f440
